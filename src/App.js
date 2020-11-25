@@ -53,8 +53,9 @@ function App() {
           <BoxColor r={128} g={255} b={0} />
         </div>
 
-        <div className="creditCards">
+        <div>
         <h2> Credit Cards</h2>
+        <div  className="creditCards">
            <CreditCard
             type="Visa"
             number="0123456789018845"
@@ -82,6 +83,7 @@ function App() {
             owner="Julian Bugier"
             bgColor="#ddbb55"
             color="white" />
+        </div>
         </div>
       
         <div className="Rating">
