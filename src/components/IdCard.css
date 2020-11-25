@@ -1,0 +1,21 @@
+.id-card-wrapper {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: left;
+  line-height: 20px;
+  border: 1px solid black;
+  margin-left: 30px;
+}
+
+.id-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+}
+
+li {
+  list-style-type: none;
+}
