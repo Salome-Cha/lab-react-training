@@ -11,7 +11,7 @@ function DriverCard(props) {
               <div> <img className='pilotImage' src={props.img}/> </div>
                 <div class="content-card">
                     <h2>{props.name}</h2>
-    <Rating>{props.rating}</Rating>
+                    <Rating>{props.rating}</Rating>
                     <p>{props.car.model} - {props.car.licensePlate}</p>
                 </div>
                 </div>

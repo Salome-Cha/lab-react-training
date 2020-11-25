@@ -96,7 +96,7 @@ function App() {
         <Rating>5</Rating>
         </div>
 
-        <div className="driver-card">
+        <div className="driver-card-style">
         <h2> Driver Cards</h2>
           <DriverCard
                 name="Travis Kalanick"
